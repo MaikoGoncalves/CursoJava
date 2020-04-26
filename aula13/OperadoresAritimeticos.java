@@ -42,6 +42,21 @@ public class OperadoresAritimeticos {
 	System.out.println(++resultado); // Soma antes e depois mostra na tela 13
 	resultado +=5;                   // Soma com qual quer numero
 	System.out.println(resultado);   // Imprime o resultado 18
+	
+	
+	resultado --;                  // Divisão e mostra na tela 11
+	System.out.println(resultado); // 18 - 1 = 17 
+	
+	System.out.println(resultado--); //  Mostra na tela pra depois Diminuir  17
+	System.out.println(resultado);   // 16
+	
+	System.out.println(--resultado); // Divisão antes e depois mostra na tela 15
+	resultado -=5;                   // Soma com qual quer numero
+	System.out.println(resultado);   // Imprime o resultado 10
+	
+	
+	
+	
 	//
   
   }
