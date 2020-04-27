@@ -8,8 +8,8 @@ public class Exer06 {
 	System.out.print("Digite o Raio de uma Circunferência em centimetro :  ");
 	double raio = scan.nextDouble();
 	double diametro = raio * 2;
-	double area = 3.14 * (raio * raio);
-	
+	double area = Math.PI * Math.pow (raio, 2 );
+	// PI e o pi   pow e ao quadrado
 	System.out.print("O Raio em cm é: " + raio);
 	System.out.println();
 	System.out.print("O Diametro em cm é: " + diametro );

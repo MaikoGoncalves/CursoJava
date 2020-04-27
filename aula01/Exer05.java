@@ -8,9 +8,9 @@ public class Exer05 {
 	System.out.print("Digite um valor em metro: ");
 	float metro = scan.nextFloat();
 	float centimentro = metro * 100;
-	System.out.print("Valor em metro: " + metro);
+	System.out.print("Valor em: " + metro + (" MT"));
 	System.out.println();
-	System.out.print("Valor em centimentro: " + centimentro);
+	System.out.print("Valor em: " + centimentro +(" CM"));
 		
 		
 		

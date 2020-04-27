@@ -6,8 +6,8 @@ public class Exer09 {
 	Scanner scan = new Scanner (System.in);
 	System.out.print("Digite uma temperatura em Farenheit: ");
 	double fare = scan.nextDouble();
-	double celsius = (5*(fare-32)/9);
-	System.out.print("A temperatura em graus Celsius uma temperatura: " + celsius);
+	double celsius = (5 * (fare-32) / 9);
+	System.out.print("A temperatura em graus Celsius uma temperatura: " + celsius + (" Cº"));
 		
 	}
 

@@ -7,7 +7,7 @@ public class Exer02 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Digite um Numero: ");	 
+		System.out.println("Digite um Numero interiro: ");	 
 		int numero = scan.nextInt();
 		System.out.println("Numero informado é: " + numero);
 	
