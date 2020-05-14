@@ -14,12 +14,12 @@ public class Exer05 {
 		
 		double media = ( nota1 + nota2 ) / 2;
 		
-		if (media < 7) {
-			System.out.println("!!! Reprovado !!! Nota: " + media);			
-		}else if (media >= 7 && media < 10) {		
-			System.out.println("!! Aprovado !! nota: " + media);
-		}else {System.out.println("! Aprovado com Distinção ! Nota: " + media);
-	}
+		if (media == 10) {
+			System.out.println("! Aprovado com Distinção ! Nota: " + media);
+		    } else if (media >= 7) {
+			  System.out.println("!! Aprovado !! nota: " + media);  
+		      }else System.out.println("!!! Reprovado !!! Nota: " + media);			
+		}
 	}		
 
-}
+

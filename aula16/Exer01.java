@@ -6,8 +6,10 @@ public class Exer01 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
+		
 		System.out.println("Entre com um numero: ");
 		double numero1 = scan.nextDouble();
+		
 		System.out.println("Entre com outro numero: ");
 		double numero2 = scan.nextDouble();
 
