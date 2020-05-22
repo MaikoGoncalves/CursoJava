@@ -2,7 +2,7 @@ package com.maiko.cursojava.aula17;
 
 import java.util.Scanner;
 
-public class Exer18 {
+public class Exer28 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class Exer18 {
 		
 		for (int i = 2; i < n; i++) {
 	        if (n % i == 0) {
-			System.out.println("Não é primo. Divisível por: " + i);
+			System.out.println("Não é primo");
 			primo = false;
 	        	//break;
 	        } 	
@@ -22,5 +22,7 @@ public class Exer18 {
 		System.out.println("É primo: " + n);
 	}
     
-   }
+
+	}
+
 }
